@@ -1,4 +1,4 @@
 # pi-stack
 
-Sources for a Raspberry Pi Stack to showcase ansible and ansible tower
+Sources for a Raspberry Pi stack to showcase ansible and ansible tower
 
