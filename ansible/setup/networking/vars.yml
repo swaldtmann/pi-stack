@@ -1,0 +1,23 @@
+---
+# Mapping of what hardware MAC addresses should be configured with specific IPs.
+mac_address_mapping:
+  "b8:27:eb:ff:b6:a3":
+    name: pi01.pi-stack.de
+    ip: "10.2.78.101"
+  "b8:27:eb:a1:14:c6":
+    name: pi02.pi-stack.de
+    ip: "10.2.78.102"
+  "b8:27:eb:fe:c4:2b":
+    name: pi03.pi-stack.de
+    ip: "10.2.78.103"
+  "b8:27:eb:8f:e8:2a":
+    name: pi04.pi-stack.de
+    ip: "10.2.78.104"
+
+default_gateway: "10.2.78.1"
+netmask: "255.255.255.0"
+
+# Nameservers to use in resolv.conf.
+dns_nameservers:
+  - "8.8.8.8"
+  - "8.8.4.4"
