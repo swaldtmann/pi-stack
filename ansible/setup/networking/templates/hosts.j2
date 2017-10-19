@@ -7,8 +7,7 @@ ff02::2   ip6-allrouters
 
 127.0.1.1 {{ dramble_hostname }}
 
-10.2.78.1 tower.pi-stack.de
-
+{{ default_gateway_ip }} {{ default_gateway_name }}
 {% for mac_address in mac_address_mapping %}
 {{ mac_address_mapping[mac_address].ip }} {{ mac_address_mapping[mac_address].name }}
 {% endfor %}

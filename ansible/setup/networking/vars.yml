@@ -14,8 +14,9 @@ mac_address_mapping:
     name: pi04.pi-stack.de
     ip: "10.2.78.104"
 
-default_gateway: "10.2.78.1"
 netmask: "255.255.255.0"
+default_gateway_ip: "10.2.78.1"
+default_gateway_name: tower.pi-stack.de
 
 # Nameservers to use in resolv.conf.
 dns_nameservers:
