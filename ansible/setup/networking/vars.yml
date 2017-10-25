@@ -1,7 +1,7 @@
 ---
 # Mapping of what hardware MAC addresses should be configured with specific IPs.
 mac_address_mapping:
-  "b8:27:eb:ff:b6:??":
+  "b8:27:eb:87:72:61":
     name: pi01.pi-stack.de
     ip: "10.2.78.101"
   "b8:27:eb:ff:b6:a3":

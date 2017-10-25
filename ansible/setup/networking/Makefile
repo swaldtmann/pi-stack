@@ -1,6 +1,6 @@
 # Makefile for ssh handling for ansible
 
-.PHONY: keyscan copyid setup
+.PHONY: keyscan copyid setup update
 
 
 keyscan:
@@ -12,3 +12,6 @@ copyid:
 
 setup:
 	ansible-playbook -i inventory main.yml
+
+update:
+	ansible pis -m apt -a "upgrade=yes update_cache=yes" -b
