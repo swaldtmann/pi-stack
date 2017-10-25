@@ -1,7 +1,10 @@
 # Makefile for ssh handling for ansible
 
-.PHONY: keyscan copyid setup update
+.PHONY: ev keyscan copyid setup update
 
+
+ev:
+	ansible-vault edit group_vars/all/vault
 
 keyscan:
 	grep ^[0-9] inventory | xargs /usr/bin/ssh-keyscan >> ~/.ssh/known_hosts
