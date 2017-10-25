@@ -1,13 +1,14 @@
+# {{ ansible_managed }}
 # Configuration for dhcpcd.
 # See dhcpcd.conf(5) for details.
 
 interface eth0
-static ip_address={{ dramble_ip_address }}/24
+static ip_address={{ pi_ip_address }}/24
 static routers={{ default_gateway_ip }}
 static domain_name_servers={{ dns_nameservers | join(' ') }}
 
 interface wlan0
-static ip_address={{ dramble_ip_address }}/24
+static ip_address={{ pi_ip_address }}/24
 static routers={{ default_gateway_ip }}
 static domain_name_servers={{ dns_nameservers | join(' ') }}
 
