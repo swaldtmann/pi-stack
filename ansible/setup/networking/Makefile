@@ -11,7 +11,7 @@ keyscan:
 	
 
 copyid:
-	grep ^[0-9] inventory | xargs -I IP /usr/bin/ssh-copy-id -i ~/.ssh/id_rsa pi@IP
+	grep ^[0-9] inventory | xargs -I IP /usr/bin/ssh-copy-id -i ~/.ssh/id_rsa.pub pi@IP
 
 setup:
 	ansible-playbook -i inventory main.yml

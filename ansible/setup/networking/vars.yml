@@ -23,5 +23,4 @@ default_gateway_name: gateway.pi-stack.de
 
 # Nameservers to use in resolv.conf.
 dns_nameservers:
-  - "8.8.8.8"
-  - "8.8.4.4"
+  - "10.2.78.1"
