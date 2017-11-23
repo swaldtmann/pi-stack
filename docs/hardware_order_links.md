@@ -12,5 +12,6 @@
 1. Power Cables
 
 1. Network Switch
+   https://www.amazon.de/gp/product/B00C2H0YFU/ref=oh_aui_detailpage_o05_s03?ie=UTF8&psc=1
 
 1. Network Cables
